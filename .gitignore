@@ -1,0 +1,56 @@
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Python artifacts
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ======================
+# Virtual environments
+# ======================
+.venv/
+venv/
+ENV/
+env/
+
+# ======================
+# Logs & runtime files
+# ======================
+*.log
+*.pid
+
+# ======================
+# OS / editor noise
+# ======================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ======================
+# Databases (local)
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================
+# Secrets / credentials
+# ======================
+*.key
+*.pem
+*.crt
